@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         });
         b1.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
-            public boolean onLongClick(View v {
+            public boolean onLongClick(View v) {
                 tv1.setText(et2.getText().toString());
                 return false;
             }
